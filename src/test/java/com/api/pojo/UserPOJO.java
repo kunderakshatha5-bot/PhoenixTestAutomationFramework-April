@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class UserPOJO {
 	private String name;
+	private String name1= "Name";
 
 	public UserPOJO(String name) {
 		super();
@@ -39,4 +40,6 @@ public class UserPOJO {
 		UserPOJO other = (UserPOJO) obj;
 		return Objects.equals(name, other.name);
 	}
+	
+	
 }
